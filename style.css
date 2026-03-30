@@ -1,0 +1,96 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    background: #f7f9fc;
+    line-height: 1.6;
+    color: #222;
+}
+
+h1, h2, h3 {
+    color: #222;
+    font-family: 'Poppins'sans-serif;
+}
+
+header h1 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    letter-spacing: -1px;
+}
+
+header p {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 40px;
+    letter-spacing: -1px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+p {
+    color: #555;
+    max-width: 600px;
+}
+
+header {
+    background: linear-gradient(to right, #2c7be5, #4da3ff);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;;
+}
+
+section {
+    color: #222;
+    background: white;
+    margin: 40px auto;
+    padding: 40px;
+    max-width: 1000px;
+    border-radius: 8px;
+}
+
+.projects {
+    display: inline-block;
+    background: #2c7be5;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.project-box {
+    background: #f7f9fc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.btn {
+    display: inline-block;
+    background: #2c7be5;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: right;
+    padding: 20px;
+}
+
+@media (max-width: 768) {
+    header h1 {
+        font-size: 32px;
+    }
+}
